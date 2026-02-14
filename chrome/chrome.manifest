@@ -13,19 +13,33 @@ skin mozapps classic/1.0 toolkit/skin/classic/mozapps/
 content recording recording/content/
 content pippki pippki/content/pippki/
 locale alerts en-US en-US/locale/en-US/alerts/
+locale alerts tr-TR tr-TR/locale/tr-TR/alerts/
 locale autoconfig en-US en-US/locale/en-US/autoconfig/
+locale autoconfig tr-TR tr-TR/locale/tr-TR/autoconfig/
 locale global en-US en-US/locale/en-US/global/
+locale global tr-TR tr-TR/locale/tr-TR/global/
 locale global-platform en-US en-US/locale/en-US/global-platform/mac/ os=Darwin
+locale global-platform tr-TR tr-TR/locale/tr-TR/global-platform/mac/ os=Darwin
 locale global-platform en-US en-US/locale/en-US/global-platform/unix/ os=LikeUnix os=Android
+locale global-platform tr-TR tr-TR/locale/tr-TR/global-platform/unix/ os=LikeUnix os=Android
 locale global-platform en-US en-US/locale/en-US/global-platform/win/ os=WINNT
+locale global-platform tr-TR tr-TR/locale/tr-TR/global-platform/win/ os=WINNT
 locale mozapps en-US en-US/locale/en-US/mozapps/
+locale mozapps tr-TR tr-TR/locale/tr-TR/mozapps/
 locale necko en-US en-US/locale/en-US/necko/
+locale necko tr-TR tr-TR/locale/tr-TR/necko/
 locale passwordmgr en-US en-US/locale/en-US/passwordmgr/
+locale passwordmgr tr-TR tr-TR/locale/tr-TR/passwordmgr/
 locale pipnss en-US en-US/locale/en-US/pipnss/
+locale pipnss tr-TR tr-TR/locale/tr-TR/pipnss/
 locale pippki en-US en-US/locale/en-US/pippki/
+locale pippki tr-TR tr-TR/locale/tr-TR/pippki/
 locale places en-US en-US/locale/en-US/places/
+locale places tr-TR tr-TR/locale/tr-TR/places/
 locale pluginproblem en-US en-US/locale/en-US/pluginproblem/
+locale pluginproblem tr-TR tr-TR/locale/tr-TR/pluginproblem/
 locale weave en-US en-US/locale/en-US/services/
+locale weave tr-TR tr-TR/locale/tr-TR/services/
 override chrome://mozapps/skin/extensions/category-dictionaries.svg chrome://mozapps/skin/extensions/dictionaryGeneric.svg
 override chrome://mozapps/skin/extensions/category-experiments.svg chrome://mozapps/skin/extensions/experimentGeneric.svg
 override chrome://mozapps/skin/extensions/category-extensions.svg chrome://mozapps/skin/extensions/extensionGeneric.svg
