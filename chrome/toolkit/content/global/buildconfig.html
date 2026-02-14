@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src chrome:" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; user-scalable=false;">
+  <title>about:buildconfig</title>
+  <link rel="stylesheet" href="chrome://global/skin/about.css" type="text/css">
+  <link rel="stylesheet" href="chrome://global/content/buildconfig.css" type="text/css">
+</head>
+<body class="aboutPageWideContainer">
+<h1>about:buildconfig</h1>
+<h2>Build platform</h2>
+<table>
+  <tbody>
+    <tr>
+      <th>target</th>
+    </tr>
+    <tr>
+      <td>i686-pc-mingw32</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Build tools</h2>
+<table>
+  <tbody>
+    <tr>
+      <th>Compiler</th>
+      <th>Version</th>
+      <th>Compiler flags</th>
+    </tr>
+    <tr>
+      <td>cl.exe</td>
+      <td>19.16.27034</td>
+      <td>-TC -nologo -wd4091 -D_HAS_EXCEPTIONS=0 -W3 -Gy -Zc:inline -arch:SSE2 -Gw -wd4244 -wd4267 -we4553</td>
+    </tr>
+    <tr>
+      <td>cl.exe</td>
+      <td>19.16.27034</td>
+      <td>-utf-8 -TP -nologo -w15038 -wd5026 -wd5027 -Zc:sizedDealloc- -wd4091 -wd4577 -D_HAS_EXCEPTIONS=0 -W3 -Gy -Zc:inline -arch:SSE2 -Gw -wd4251 -wd4244 -wd4267 -wd4800 -wd4595 -we4553 -D_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING -GR- -Zi -O1 -Oi -Oy-</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Configure options</h2>
+<p>'MOZILLABUILD=C:\mozilla-build-3.0\' MAKE=c:/mozilla-build-3.0/mozmake/mozmake.EXE</p>
+</body>
+</html>
